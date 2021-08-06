@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXCQ2MQ5H4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RXCQ2MQ5H4');
+</script>
+  <title>Meals by Milzee</title>
+  <link rel="icon" href="mealslogo.jpg" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gilda+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="login.html">Login</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="catering.html">Catering</a>
+    <a href="index.html">Home</a>
+     <div class="centered">Meals By Milzee</div>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="contain">
+    <h1>Contact Us</h1>
+      <p>Please fill out the form below and someone will be in contact with you shortly</p>
+
+        <form id="test_form" class="contact-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="first-name">
+            <label for="firstname" class="label_input_wrap">First Name:</label>
+            <input type="text" name="req_firstname" id="firstname" placeholder="ex. John"/>
+              </div>
+
+        <div class="last-name">
+            <label for="lastname" class="label_input_wrap">last name:</label>
+              <input type="text" name="req_lastname" id="lastname" placeholder="Last name"/>
+              </div>
+
+                <div class="email">
+                    <label for="email" class="label_input_wrap">Email:</label>
+                      <input type="email" name="req_email" id="email"
+                      placeholder="jsmith@example.com" />
+                    </div>
+
+                    <div class="telephone">
+                      <label for="telephone" class="label_input_wrap">Telephone:</label>
+                      <input type="tel"  name="telephone" id="telephone" placeholder="555-555-555"/>
+                    </div>
+
+
+                    <div class="comments">
+                      <label for="comments" class="label_input_wrap">Comments or Place Order: </label>
+                      <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your Comments Goes Here"></textarea>
+                    </div>
+
+                    <div class="submit">
+                      <input type="submit" value="Send me a message!"/>
+                    </div>
+
+    </form>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+
+ <footer>
+   <div id= "div5">
+            KAMILLEKARLOS@HOTMAIL.COM \ All Copyrights Reserved 2020-21 Maya Multimedia LLC \ MILZEE12@AOL.COM</div>
+ </footer>
+ </body>
+ </html>
