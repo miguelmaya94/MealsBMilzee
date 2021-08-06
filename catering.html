@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXCQ2MQ5H4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RXCQ2MQ5H4');
+</script>
+<title>Meals By Milzee</title>
+<link rel="icon" href="mealslogo.jpg" type="image/gif" sizes="16x16">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link  href="https://fonts.googleapis.com/css?family=Gilda+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="login.html">Login</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="catering.html">Catering</a>
+    <a href="index.html">Menu</a>
+    <a href="index.html">Home</a>
+     <div class="centered">Meals By Milzee</div>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div class="animation"></div>
+  </div>
+
+
+  <div class="myDiv3">
+          <img src="images/platter-2009590.jpg" alt="Snow" style="width:100%;">
+
+          <h3>For Catering Families 1-50 people</h3>
+          <a href="contact.html" class="button--style-red">Click to order through our contact</a>
+          </div>
+          <div class="center">
+            <div class="myDiv7">
+               <div class="row">
+              <div class="columnn">
+
+                  <img src="images/mexican-245240_1920.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div><h4>Five Cheese Chicken Enchiladas 1-25</h4>
+
+                <div class="columnn">
+                  <img src="images/vegetables-5301827_1920.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div><p>Beef or Chicken Stir Fry Special 25-50</p>
+              </div>
+                </div>
+        </div>
+
+
+
+
+
+
+        <div class="myDiv3">
+                <img src="images/restaurant-3597677.jpg" alt="Snow" style="width:100%;">
+
+                <h3>For Catering Families 50-500 people</h3>
+                <a href="contact.html" class="button--style-red">Click to order through our contact</a>
+                </div>
+                <div class="center2">
+                  <div class="myDiv4">
+                     <div class="row">
+                    <div class="columnn">
+                        <img src="images/salmon-518032_1920.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                      </div>
+                      <h4>Catch of the Day (any protien) 50-250</h4>
+                      <div class="columnn">
+                        <img src="images/pasta-5579058_1920.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
+                      <p>Fetuccini Alfredo with Chicken 250-500</p>
+                      </div>
+                      </div>
+              </div>
+
+
+
+
+
+
+
+
+              <div class="myDiv3">
+                      <img src="images/resort-4471852.jpg" alt="Snow" style="width:100%;">
+
+                      <h3>For Catering Families 500+ people</h3>
+                      <a href="contact.html" class="button--style-red">Click to order through our contact</a>
+                      </div>
+                      <div class="center2">
+                        <div class="myDiv4">
+                           <div class="row">
+                          <div class="columnn">
+                              <img src="images/taco-4288033_1920.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                            </div>
+                                <h4>Mexican Fiesta Taco Night 500</h4>
+
+                          </div>
+                            </div>
+                    </div>
+
+
+
+
+
+
+
+
+ <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+function openModal() {
+  document.getElementById("myModal").style.display = "inline-block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+
+
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="images/mexican-245240_1920.jpg" alt="imag"style="width:100%">
+      <a href="contact.html" class="button--style-red">Order Now</a>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="images/vegetables-5301827_1920.jpg" alt="vegeta" style="width:100%">
+      <a href="contact.html" class="button--style-red">Order Now</a>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="images/salmon-518032_1920.jpg" alt="Salmon" style="width:100%">
+      <a href="contact.html" class="button--style-red">Order Now</a>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/pasta-5579058_1920.jpg" alt="pasta" style="width:100%">
+      <a href="contact.html" class="button--style-red">Order Now</a>
+    </div>
+    <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/taco-4288033_1920.jpg" alt="Tacos"style="width:100%">
+        <a href="contact.html" class="button--style-red">Order Now</a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="columnn">
+      <img class="demo cursor" src="images/mexican-245240_1920.jpg" style="width:100%" onclick="currentSlide(1)" alt="Five Cheese OMG!!!! Chicken Enchiladas">
+    </div>
+    <div class="columnn">
+      <img class="demo cursor" src="images/vegetables-5301827_1920.jpg" style="width:100%" onclick="currentSlide(2)" alt="Beef or Chicken Stir Fry Special">
+    </div>
+    <div class="columnn">
+      <img class="demo cursor" src="images/salmon-518032_1920.jpg" style="width:100%" onclick="currentSlide(3)" alt="Catch of the Day">
+    </div>
+    <div class="columnn">
+      <img class="demo cursor" src="images/pasta-5579058_1920.jpg" style="width:100%" onclick="currentSlide(4)" alt="Fetuccini Alfredo with Chicken">
+    </div>
+    <div class="columnn">
+      <img class="demo cursor" src="images/taco-4288033_1920.jpg" style="width:100%" onclick="currentSlide(5)" alt="Mexican Fiesta Taco Night">
+    </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+<footer>
+  <div id= "div5">
+           KAMILLEKARLOS@HOTMAIL.COM \ All Copyrights Reserved 2020-21 Maya Multimedia LLC \ MILZEE12@AOL.COM</div>
+</footer>
+</body>
+</html>
