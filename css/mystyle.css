@@ -1,0 +1,660 @@
+<style>
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+
+body {
+margin: 0;
+font-family: 'Playfair Display', serif;
+}
+
+.container {
+max-width: 1000px;
+margin: 30px auto;
+
+}
+.myDiv {
+  border: 5px outset pink;
+  text-align: center;
+  max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+   background: rgba(204, 204, 204, 0.9);
+color: white;
+font-size: 35px;
+
+
+}
+.myDiv2 {
+  border: 5px outset pink;
+  text-align: center;
+  max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+   background: rgba(204, 204, 204, 0.9);
+color: white;
+font-size: 35px;
+
+
+}
+.myDiv7 {
+  border: 5px outset pink;
+  text-align: center;
+  max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+   background: rgba(204, 204, 204, 0.9);
+color: white;
+font-size: 17px;
+
+
+}
+.myDiv3 {
+
+  text-align: center;
+  max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+font-size: 25px;
+margin-bottom: 300px;
+}
+
+
+
+.center{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+}
+/* Contact info */
+  .contain, .contain h2, .contain p{
+
+margin-top:100px;
+box-sizing: border-box;
+text-align: center;
+
+
+
+}
+/* Contact info */
+
+/* Login info */
+
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color:  pink;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container3 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* Login info end*/
+
+/* About us*/
+
+.columntwo {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.containe {
+  padding: 0 16px;
+  margin-bottom: 50px;
+}
+
+.containe::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+.button--style-red{
+    text-decoration: none;
+    box-sizing: border-box;
+text-align: center;
+    background-color: lightpink;
+    border: 20px solid lightpink;
+    font-size: 20px;
+    border-radius: 5% 25%;
+    color: white;
+
+
+
+}
+
+/* About us*/
+button {
+  border: none;
+  outline: 0;
+  display:  inline;
+  padding: 18px;
+  color: white;
+  background-color: lightpink;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* About us*/
+
+/* login info */
+
+.topnav {
+overflow: hidden;
+background-color:lightpink;
+position: fixed;
+width: 100%;
+top:0;
+margin:0;
+
+}
+
+.topnav a {
+float: right;
+display: block;
+color: white;
+text-align: center;
+padding: 16px 18px;
+text-decoration: none;
+font-size: 21px;
+
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.topnav .icon {
+display: none;
+}
+
+
+.centered {
+font-family: 'Cinzel Decorative', cursive;
+position: absolute;
+float:left;
+font-size: 35px;
+color: white;
+
+}
+.animation {
+  width: 50px;
+  height: 57px;
+  position: relative;
+  background-color:  #ffffff00;
+  animation-name: example;
+  animation-duration: 15s;
+}
+@keyframes example {
+  0%   {background-color: #ffffff00; left:0px;}
+  50%  {background-color: hotpink; left:100%;}
+  100% {background-color: #ffffff00; left:0px;}
+}
+
+.column {
+float: left;
+width: 30%;
+padding: 10px;
+text-align: center;
+margin-bottom: 50px;
+
+
+
+}
+.column2 {
+float:right;
+width: 30%;
+padding: 10px;
+text-align: center;
+margin-bottom: 100px;
+
+}
+
+.column img{
+border-radius: 25% 10%;
+margin-bottom: 50px;
+}
+.column2 img{
+border-radius: 25% 10%;
+margin-bottom: 50px;
+
+}
+.column, .column2 h3{
+text-decoration: none;
+font-family: 'Dancing Script', cursive;
+}
+
+p{
+font-family: 'UlagadiSansRegular';
+ font-weight: normal;
+ font-style: normal;
+}
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+#div5 {
+border: 0px black;
+    background-color: gray;
+    padding: 14px;
+    margin: 0px;
+    margin-top: 30px;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+
+
+/* Catering */
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnn {
+  float: left;
+
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position:  fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0%;
+  top: 0;
+  width: 100%;
+  height: 77%;
+  overflow: auto;
+  background-color: black;
+  text-align: center;
+
+}
+
+/* Modal Content */
+.modal-content {
+  position:   sticky;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+  max-width: 500px;
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myDiv4 {
+
+    border: 5px outset pink;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+     background: rgba(204, 204, 204, 0.9);
+  color: white;
+  font-size: 20px;
+
+
+  }
+  .center2{
+    color: white;
+    position:  relative;
+    left: 50%;
+    transform: translate(-50%, -270%);
+
+}
+/* Catering */
+
+
+@media screen and (max-width: 700px) {
+.topnav a:not(:first-child) {display:none;}
+.topnav a.icon {
+float:right;
+display: block;
+}
+}
+
+@media screen and (max-width: 700px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+.topnav.responsive a {
+float: none;
+display: inline-block;
+text-align: left;
+font-size: 12px;
+}
+
+.myDiv {
+
+  max-width: 100%;
+font-size: 15px;
+
+
+}
+.myDiv7 {
+
+font-size: 15px;
+margin-top: 10px
+
+
+}
+.myDiv3 {
+
+  text-align: center;
+  max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+font-size: 25px;
+margin-bottom: 200px;
+
+
+
+}
+.myDiv4 {
+
+  position:    relative ;
+
+  max-width: 50%;
+  height: 30%;
+
+
+font-size: 15px;
+margin-top: auto;
+margin-bottom: auto;
+
+
+
+}
+
+
+
+
+.centered{
+  font-size: 21px;
+   float:left;
+   margin-top: 12px;
+}
+
+   .center {
+     color: white;
+     position: absolute;
+     top: 30%;
+     left: 50%;
+
+
+
+
+   }
+
+   .button--style-red{
+
+       font-size: 13px;
+
+
+
+
+
+
+   }
+
+
+
+.container3{
+  display:  block;
+  text-align: center;
+}
+
+.container{
+  max-width: 100%;
+}
+
+button{
+
+  width:50%;
+  position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.background{
+width: 100%;
+height: 500px;
+}
+.cancelbtn {
+   width: 100%;
+}
+/* Login Form*/
+
+/* About us*/
+.column, .column2, .columntwo {
+  width: 100%;
+  display: block;
+  margin-bottom: 100px;
+
+
+}
+
+.column a, .column2 a{
+
+
+  font-size: 20px;
+}
+/* About us*/
+#div5{
+       width: 100%;
+       font-size: 13px;
+       margin-top: 30px;
+
+    }
+
+    /* Login Form  */
+    span.psw {
+   display: block;
+   float: none;
+ }
+  }
+
+
+</style>
